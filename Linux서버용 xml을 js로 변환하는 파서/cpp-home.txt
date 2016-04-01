@@ -1,0 +1,65 @@
+<Information>
+	<type>Windows</type>
+</Information>
+<Component>
+	<name>main</name>
+	<position>0,0</position>
+	<size>100,200</size>
+	<background>
+		<rgb>black</rgb>
+	</background>
+	<itemList>
+		<item>
+			<category>button</category>
+			<name>button1</name>
+			<position>10,10</position>
+			<size>10,20</size>
+			<background>
+				<rgb>white</rgb>
+			</background>
+			<text>ok</text>
+			<eventList>
+				<el>
+					<category>click</category>
+					<act>onclick</act>
+					<passComponent>
+						<name>
+							second
+						</name>
+					</passComponent>
+				</el>
+			</eventList>
+		</item>
+	</itemList>
+</Component>
+<Component>
+	<name>second</name>
+	<position>200,200</position>
+	<size>100,200</size>
+	<background>
+		<rgb>black</rgb>
+	</background>
+	<itemList>
+		<item>
+			<category>button</category>
+			<name>button2</name>
+			<position>0,0</position>
+			<size>10,20</size>
+			<background>
+				<rgb>white</rgb>
+			</background>
+			<text>cancel</text>
+			<eventList>
+				<el>
+					<category>click</category>
+					<act>onclick</act>
+					<passComponent>
+						<name>
+							main
+						</name>
+					</passComponent>
+				</el>
+			</eventList>
+		</item>
+	</itemList>
+</Component>

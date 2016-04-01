@@ -1,0 +1,2 @@
+$('#Button2').tooltipster({content: 'Not yet commit this item',interactive: true,interactiveTolerance: 180,contentAsHTML: true,animation: 'grow',position: 'right',onlyOne: true,theme: 'tooltipster-shadow',multiple: true});
+$('#Button2').tooltipster({content: 'Button2',interactive: true,interactiveTolerance: 180,contentAsHTML: true,animation: 'grow',position: 'top',onlyOne: true,theme: 'tooltipster-shadow',multiple: true});
